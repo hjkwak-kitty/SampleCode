@@ -18,6 +18,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -189,10 +191,8 @@ public class MainActivity extends ActionBarActivity {
             }
 
             @Override
-            public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                                     Bundle savedInstanceState) {
-                View rootView = inflater.inflate(R.layout.fragment_page2,
-                        container, false);
+            public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+                View rootView = inflater.inflate(R.layout.fragment_page2, container, false);
                 final ArrayList<String> arrayList = new ArrayList<String>();
                 arrayList.add("사과");
                 arrayList.add("배");
@@ -213,6 +213,7 @@ public class MainActivity extends ActionBarActivity {
 
         public static class SectionsFragment3 extends Fragment {
 
+            WebView webView;
             public SectionsFragment3() {
 
             }
@@ -224,6 +225,19 @@ public class MainActivity extends ActionBarActivity {
                 args.putInt("section_number", SectionNumber);
                 fragment.setArguments(args);
                 return fragment;
+            }
+
+            @Override
+            public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+                View rootView = inflater.inflate(R.layout.fragment_page3, container, false);
+
+
+                webView = (WebView)rootView.findViewById(R.id.webview);
+                webView.getSettings().setJavaScriptEnabled(true);
+                webView.loadUrl("http://google.com");
+                webView.setWebViewClient(new WebViewClient());
+
+                return rootView;
             }
         }
 
