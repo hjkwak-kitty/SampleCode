@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         webView = (WebView)findViewById(R.id.webview);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("http://192.168.88.175/phpinfo.php");
+        webView.loadUrl("http://m.yesfile.com");
         webView.setWebViewClient(new WebViewClient());
     }
 

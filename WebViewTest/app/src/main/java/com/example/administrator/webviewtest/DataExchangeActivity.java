@@ -2,6 +2,7 @@ package com.example.administrator.webviewtest;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -51,11 +52,13 @@ public class DataExchangeActivity extends Activity {
 
     private class AndroidBridge {
         @JavascriptInterface
-
         public void setMessage(final String arg) {
             handler.post(new Runnable() {
                 public void run() {
                     mTextView.setText("받은 메시지 : \n" + arg);
+                    Intent intent = new Intent(DataExchangeActivity.this,CheckDataActivity.class);
+                    intent.putExtra("data",arg);
+                    startActivity(intent);
                 }
             });
         }
