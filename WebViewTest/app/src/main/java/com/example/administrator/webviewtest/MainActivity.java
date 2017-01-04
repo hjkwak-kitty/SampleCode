@@ -13,7 +13,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     WebView webView;
-    Uri uri;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 case KeyEvent.KEYCODE_MENU:
                     Toast.makeText(getApplicationContext(), "메뉴버튼!!", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(MainActivity.this,DataExchangeActivity.class);
+                    startActivity(intent);
+
                     // 단말기의 메뉴버튼
                     return true;
                 case KeyEvent.KEYCODE_HOME:
