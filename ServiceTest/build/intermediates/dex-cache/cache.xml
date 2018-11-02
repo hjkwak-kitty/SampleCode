@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Documentation\data\MyRecorder\ServiceTest\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="52caa6f61f68a1c1a24fabb44a35a624fe043bad">
+        <dex dex="D:\Documentation\data\MyRecorder\ServiceTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_dd6c6ef49da956589aa49d13120dce3674be9482\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\Documentation\data\MyRecorder\ServiceTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_5c13dae993a3a70564280b74f4a6300075997e8b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documentation\data\MyRecorder\ServiceTest\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6bdaf0a2502aeb41421c2b09c6a3a1042702f413">
+        <dex dex="D:\Documentation\data\MyRecorder\ServiceTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1f065df4eb592082104c0e5af80864aa48d47319\classes.dex" />
+    </item>
+
+</items>

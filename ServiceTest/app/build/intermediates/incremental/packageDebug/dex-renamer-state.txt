@@ -1,0 +1,7 @@
+#Mon Mar 06 13:07:08 KST 2017
+base.0=D\:\\Documentation\\data\\MyRecorder\\ServiceTest\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1f065df4eb592082104c0e5af80864aa48d47319
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\Documentation\\data\\MyRecorder\\ServiceTest\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_dd6c6ef49da956589aa49d13120dce3674be9482\\classes.dex
+base.1=D\:\\Documentation\\data\\MyRecorder\\ServiceTest\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_dd6c6ef49da956589aa49d13120dce3674be9482
+file.0=D\:\\Documentation\\data\\MyRecorder\\ServiceTest\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1f065df4eb592082104c0e5af80864aa48d47319\\classes.dex
